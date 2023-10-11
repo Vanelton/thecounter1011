@@ -37,10 +37,10 @@ body {
 }
 
 .texto {
-    font-size: 1.5rem; /* Tamanho da fonte do texto */
-    color: white; /* Cor do texto */
-    text-align: center; /* Alinhamento do texto ao centro */
-    margin-top: 20px; /* Espaçamento superior para separar do contador */
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
 }
 
 audio{
