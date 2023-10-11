@@ -1,0 +1,79 @@
+body {
+    background: url("assets/img/vgg.jfif");
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+    /*transition: background 3s ease-in-out;*/
+    user-select: none;
+}
+
+.container {
+    background: rgba(0, 0, 0, 1);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    transition: background 3s ease-in-out;
+}
+
+.contador {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contador-tempo {
+    font-size: 4rem;
+    color: white;
+    margin: 0 10px;
+    transition: 2s;
+}
+
+.texto {
+    font-size: 1.5rem; /* Tamanho da fonte do texto */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto ao centro */
+    margin-top: 20px; /* Espaçamento superior para separar do contador */
+}
+
+audio{
+    display: block;
+}
+
+.photo-img{
+    border-radius: 20px;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+    -webkit-box-shadow: 0px 0px 27px -3px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 0px 27px -3px rgba(0,0,0,0.41);
+    box-shadow: 0px 0px 27px -3px rgba(0,0,0,0.41);
+}
+
+.hud {
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    bottom: 50%;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    margin: 0 10px;
+    transition: 2s ease-in-out;
+}
+
+.balloons {
+    position: fixed;
+    top: 100%;
+    left: 0%;
+    font-size: 4rem;
+    color: white;
+    margin: 0 10px;
+    transition: 7s;
+}
